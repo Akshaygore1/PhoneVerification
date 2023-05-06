@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import PhoneVerify from "./PhoneVerify";
-import OTPverify from "./OTPverify";
+import OTPVerify from "./OTPVerify";
 
 const App = () => {
   return (
@@ -9,7 +9,7 @@ const App = () => {
       <Router>
         <Routes>
           <Route exact path="/" element={<PhoneVerify />} />
-          <Route exact path="/otp" element={<OTPverify />} />
+          <Route exact path="/verify" element={<OTPVerify />} />
         </Routes>
       </Router>
     </>
