@@ -9,7 +9,7 @@ const App = () => {
       <Router>
         <Routes>
           <Route exact path="/" element={<PhoneVerify />} />
-          <Route exact path="/verify" element={<OTPVerify />} />
+          {/* <Route exact path="/verify" element={<OTPVerify />} /> */}
         </Routes>
       </Router>
     </>
